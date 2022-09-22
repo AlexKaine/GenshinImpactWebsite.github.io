@@ -1,0 +1,42 @@
+/*this just imports the font*/
+@font-face {
+	font-family: "Genshin";
+	src: url("zh-cn.ttf");
+}
+/*loads the vid on our splash screen*/
+#backgroundVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+}
+
+.content {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.content h1 {
+	font-family: Genshin;
+	text-align: center;
+	padding:20px;
+	margin:15px;
+	color: #fff;
+}
+
+.content a {
+	z-index: 1;
+	text-decoration: none;
+}
