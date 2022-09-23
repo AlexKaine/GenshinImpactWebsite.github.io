@@ -115,3 +115,18 @@
 .sumeru {
 	background-color:#a6c938;
 }
+
+.carousel-item {
+	height:20rem;
+	background: #777;
+	position: relative;
+}
+
+.character-portrait {
+	width:100%;
+}
+
+.characterTall {
+	height:700px;
+	visibility:hidden;
+}

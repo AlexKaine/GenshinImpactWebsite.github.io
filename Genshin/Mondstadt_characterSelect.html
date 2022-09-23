@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Genshin Impact Styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	
+	<title>Welcome!</title>
+</head>
+<body>
+
+<div class="position-absolute top-50 start-50 translate-middle">
+	<img class="characterTall" id="character" src="MondstadtTall/Character_Albedo_Portrait.webp">
+</div>
+
+<div class="position-absolute top-50 start-0 translate-middle-y">
+	<button type="button" class="btn btn-info btn-lg">Learn More</button>
+</div>
+
+<div class="container-fluid position-absolute bottom-0 start-50 translate-middle-x" style="margin:initial;">
+  <div id="myCarousel" class="carousel slide" data-interval="false" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+		<div class="d-flex justify-content-center">
+			<img onclick="changeTall('Albedo')" src="MondstadtPortrait/Item_Albedo.webp">
+			<img onclick="changeTall('Amber')" src="MondstadtPortrait/Item_Amber.webp">
+			<img onclick="changeTall('Barbara')" src="MondstadtPortrait/Item_Barbara.webp">
+			<img onclick="changeTall('Bennett')" src="MondstadtPortrait/Item_Bennett.webp">
+			<img onclick="changeTall('Diluc')" src="MondstadtPortrait/Item_Diluc.webp">
+		</div>
+      </div>
+	  <div class="carousel-item">
+		<div class="d-flex justify-content-center">
+			<img onclick="changeTall('Diona')" src="MondstadtPortrait/Item_Diona.webp">
+			<img onclick="changeTall('Eula')" src="MondstadtPortrait/Item_Eula.webp">
+			<img onclick="changeTall('Fischl')" src="MondstadtPortrait/Item_Fischl.webp">
+			<img onclick="changeTall('Jean')" src="MondstadtPortrait/Item_Jean.webp">
+			<img onclick="changeTall('Kaeya')" src="MondstadtPortrait/Item_Kaeya.webp">
+		</div>
+      </div>
+	  <div class="carousel-item">
+		<div class="d-flex justify-content-center">
+			<img onclick="changeTall('Klee')" src="MondstadtPortrait/Item_Klee.webp">
+			<img onclick="changeTall('Lisa')" src="MondstadtPortrait/Item_Lisa.webp">
+			<img onclick="changeTall('Mona')" src="MondstadtPortrait/Item_Mona.webp">
+			<img onclick="changeTall('Noelle')" src="MondstadtPortrait/Item_Noelle.webp">
+			<img onclick="changeTall('Razor')" src="MondstadtPortrait/Item_Razor.webp">
+		</div>
+      </div>
+	  <div class="carousel-item">
+		<div class="d-flex justify-content-center">
+			<img onclick="changeTall('Rosaria')" src="MondstadtPortrait/Item_Rosaria.webp">
+			<img onclick="changeTall('Sucrose')" src="MondstadtPortrait/Item_Sucrose.webp">
+			<img onclick="changeTall('Venti')" src="MondstadtPortrait/Item_Venti.webp">
+		</div>
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="text/javascript" src="GenshinScript.js"></script>
+</body>
+</html>
