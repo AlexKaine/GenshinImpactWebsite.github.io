@@ -1,3 +1,4 @@
+
 /*this just imports the font*/
 @font-face {
 	font-family: "Genshin";
@@ -9,6 +10,23 @@
   right: 0;
   bottom: 0;
   max-width: 100%;
+  filter: brightness(100%);
+}
+
+#backgroundVideo {
+	animation-name: flashbang;
+	animation-duration: 4s;
+	animation-iteration-count: 1;
+	animation-play-state: paused;
+}
+
+/*#videoLink:active > #backgroundVideo {
+	animation-play-state: running;
+}*/
+
+@keyframes flashbang {
+	0% {filter: brightness(100%)}
+	100% {filter: brightness(1000%)}
 }
 
 .content {
@@ -39,4 +57,61 @@
 .content a {
 	z-index: 1;
 	text-decoration: none;
+}
+
+.regionButton {
+	min-height:100%;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	display: flex;
+}
+
+.regionButton:hover{
+	
+}
+
+.regionButton .emblem {
+	width:300px;
+	height:300px;
+}
+
+.regionButton:hover > .emblem {
+	animation-name: regionHover;
+	animation-duration: 1s;
+	width:400px;
+	height:400px;
+}
+
+.regionButton:not(:hover) > .emblem {
+	animation-name: regionNotHover;
+	animation-duration: 1s;
+	width:300px;
+	height:300px;
+}
+
+@keyframes regionHover {
+	0% {width:300px; height:300px;}
+	100% {width:400px; height:400px;}
+}
+
+@keyframes regionNotHover {
+	0% {width:400px; height:400px;}
+	100% {width:300px; height:300px;}
+}
+
+.inazuma {
+	background-color:#af8ec1;
+}
+
+.liyue {
+	background-color:#fab632;
+}
+
+.monstadt {
+	background-color:#74c2a8;
+}
+
+.sumeru {
+	background-color:#a6c938;
 }
