@@ -96,7 +96,77 @@ function changeTall(name) {
 		case 'Venti':
 			document.getElementById("character").src = "MondstadtTall/Character_Venti_Portrait.png";
 			break;
-	}
 	
+		case 'Beidou':
+			document.getElementById("character").src = "LiyueTall/Character_Beidou_Portrait.webp";
+			break;
+			
 	
+		case 'Chongyun':
+			document.getElementById("character").src = "LiyueTall/Character_Chongyun_Portrait.webp";
+			break;
+			
+		case 'Ganyu':
+			document.getElementById("character").src = "LiyueTall/Character_Ganyu_Portrait.webp";
+			break;
+			
+	
+		case 'Hu_Tao':
+			document.getElementById("character").src = "LiyueTall/Character_Hu_Tao_Portrait.webp";
+			break;
+			
+		case 'Keqing':
+			document.getElementById("character").src = "LiyueTall/Character_Keqing_Portrait.webp";
+			break;
+			
+	
+		case 'Ningguang':
+			document.getElementById("character").src = "LiyueTall/Character_Ningguang_Portrait.webp";
+			break;
+			
+		case 'Qiqi':
+			document.getElementById("character").src = "LiyueTall/Character_Qiqi_Portrait.webp";
+			break;
+			
+	
+		case 'Shenhe':
+			document.getElementById("character").src = "LiyueTall/Character_Shenhe_Portrait.png";
+			break;
+			
+		case 'Xiangling':
+			document.getElementById("character").src = "LiyueTall/Character_Xiangling_Portrait.webp";
+			break;
+			
+	
+		case 'Xiao':
+			document.getElementById("character").src = "LiyueTall/Character_Xiao_Portrait.webp";
+			break;
+			
+		case 'Xingqiu':
+			document.getElementById("character").src = "LiyueTall/Character_Xingqiu_Portrait.webp";
+			break;
+			
+	
+		case 'Xinyan':
+			document.getElementById("character").src = "LiyueTall/Character_Xinyan_Portrait.webp";
+			break;
+			
+		case 'Yanfei':
+			document.getElementById("character").src = "LiyueTall/Character_Yanfei_Portrait.webp";
+			break;
+	
+		case 'Yelan':
+			document.getElementById("character").src = "LiyueTall/Character_Yelan_Portrait.webp";
+			break;
+		
+		case 'Yun_Jin':
+			document.getElementById("character").src = "LiyueTall/Character_Yun_Jin_Portrait.webp";
+			break;
+			
+	
+		case 'Zhongli':
+			document.getElementById("character").src = "LiyueTall/Character_Zhongli_Portrait.webp";
+			break;
+			
+	}	
 }
