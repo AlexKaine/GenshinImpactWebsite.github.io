@@ -168,5 +168,87 @@ function changeTall(name) {
 			document.getElementById("character").src = "LiyueTall/Character_Zhongli_Portrait.webp";
 			break;
 			
+		case 'Collei':
+			document.getElementById("character").src = "SumeruTall/Character_Collei_Portrait.webp";
+			break;
+		
+		case 'Dori':
+			document.getElementById("character").src = "SumeruTall/Character_Dori_Portrait.webp";
+			break;
+			
+	
+		case 'Tighnari':
+			document.getElementById("character").src = "SumeruTall/Character_Tighnari_Portrait.webp";
+			break;
+			
+		case 'Arataki_Itto':
+			document.getElementById("character").src = "InazumaTall/Character_Arataki_Itto_Portrait.webp";
+			break;
+			
+		case 'Gorou':
+			document.getElementById("character").src = "InazumaTall/Character_Gorou_Portrait.webp";
+			break;
+			
+		case 'Kaedehara_Kazuha':
+			document.getElementById("character").src = "InazumaTall/Character_Kaedehara_Kazuha_Portrait.webp";
+			break;
+			
+		case 'Kamisato_Ayaka':
+			document.getElementById("character").src = "InazumaTall/Character_Kamisato_ayaka_Portrait.webp";
+			break;
+			
+		case 'Kamisato_Ayato':
+			document.getElementById("character").src = "InazumaTall/Character_Kamisato_Ayato_Portrait.webp";
+			break;
+			
+		case 'Kujou_Sara':
+			document.getElementById("character").src = "InazumaTall/Character_Kujou_Sara_Portrait.webp";
+			break;
+			
+		case 'Kuki_Shinobu':
+			document.getElementById("character").src = "InazumaTall/Character_Kuki_Shinobu_Portrait.webp";
+			break;
+			
+		case 'Raiden_Shougun':
+			document.getElementById("character").src = "InazumaTall/Character_Raiden_Shogun_Portrait.webp";
+			break;
+	
+		case 'Sangonomiya_Kokomi':
+			document.getElementById("character").src = "InazumaTall/Character_Sangonomiya_Kokomi_Portrait.webp";
+			break;
+		
+		case 'Sayu':
+			document.getElementById("character").src = "InazumaTall/Character_Sayu_Portrait.webp";
+			break;
+			
+	
+		case 'Shikanoin_Heizou':
+			document.getElementById("character").src = "InazumaTall/Character_Shikanoin_Heizou_Portrait.webp";
+			break;
+			
+		case 'Thoma':
+			document.getElementById("character").src = "InazumaTall/Character_Thoma_Portrait.webp";
+			break;
+		
+		case 'Yae_Miko':
+			document.getElementById("character").src = "InazumaTall/Character_Yae_Miko_Portrait.webp";
+			break;
+			
+	
+		case 'Yoimiya':
+			document.getElementById("character").src = "InazumaTall/Character_Yoimiya_Portrait.webp";
+			break;
+				
 	}	
 }
+
+function openNav() {
+	document.getElementById("defaultSidebar").style.width = "250px";
+	document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+	document.getElementById("defaultSidebar").style.width = "0px";
+	document.getElementById("main").style.marginLeft = "0px";
+}
+

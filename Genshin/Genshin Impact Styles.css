@@ -119,8 +119,34 @@
 	background-attachment:fixed;
 }
 
+#liyueBody {
+	background-image:url('backgrounds/LiyueBg.webp');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+#inazumaBody {
+	background-image:url('backgrounds/InazumaBg.webp');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+#sumeruBody {
+	background-image:url('backgrounds/SumeruBg.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
 .sumeru {
 	background-color:#a6c938;
+}
+
+.brokenTighnari {
+	width:200px;
+	height:200px;
 }
 
 .carousel-item {
@@ -138,8 +164,70 @@
 	visibility:hidden;
 }
 
-.button {
+.buttonLearn {
 	position: relative;
 	left:300px;
 	top:300px;
+}
+
+.buttonBack {
+	position: relative;
+	left:300px;
+	top:315px;
+}
+}
+
+.sidebar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidebar a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-family: "Lato", sans-serif;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidebar a:hover {
+	color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+.openbtn {
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #111;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	position: fixed;
+	margin-top:50px;
+}
+
+.openbtn:hover {
+	background-color: #444;
+}
+
+#main {
+	transition: margin-left .5s;
+	padding: 16px;
 }
