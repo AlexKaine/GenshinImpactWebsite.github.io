@@ -6,6 +6,8 @@ function play() {
 	document.getElementById("backgroundVideo").style.animationPlayState = "running";
 }
 
+var nameState;
+
 function changeTall(name) {
 	var imgState = document.getElementById("character").style.visibility;
 	console.log(imgState);
@@ -15,6 +17,7 @@ function changeTall(name) {
 	//}
 	console.log(name);
 	
+	nameState = name;
 	switch (name){
 		case 'Albedo':
 			document.getElementById("character").src = "MondstadtTall/Character_Albedo_Portrait.webp";
@@ -240,6 +243,19 @@ function changeTall(name) {
 			break;
 				
 	}	
+}
+
+function learn(){
+console.log('working');
+var src = document.getElementById("character").src;
+console.log('src is ' +nameState);
+switch (nameState){
+	case 'Arataki_Itto':
+		window.location.href = "Arataki_Itto.html";
+		console.log('no move');
+	break;
+}
+	
 }
 
 function openNav(id) {
