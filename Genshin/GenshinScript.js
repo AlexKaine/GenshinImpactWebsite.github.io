@@ -259,8 +259,8 @@ switch (nameState){
 }
 
 function openNav(id) {
-	document.getElementById(id).style.width = "1000px";
-	document.getElementById("main").style.marginLeft = "1000px";
+	document.getElementById(id).style.width = "1200px";
+	document.getElementById("main").style.marginLeft = "1200px";
 }
 
 function closeNav(id) {
