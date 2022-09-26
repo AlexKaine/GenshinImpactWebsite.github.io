@@ -242,13 +242,13 @@ function changeTall(name) {
 	}	
 }
 
-function openNav() {
-	document.getElementById("defaultSidebar").style.width = "250px";
-	document.getElementById("main").style.marginLeft = "250px";
+function openNav(id) {
+	document.getElementById(id).style.width = "1000px";
+	document.getElementById("main").style.marginLeft = "1000px";
 }
 
-function closeNav() {
-	document.getElementById("defaultSidebar").style.width = "0px";
+function closeNav(id) {
+	document.getElementById(id).style.width = "0px";
 	document.getElementById("main").style.marginLeft = "0px";
 }
 

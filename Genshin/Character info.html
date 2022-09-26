@@ -8,7 +8,153 @@
 	
 	<title>Welcome!</title>
 </head>
-<body>
+<body style="background-image:url('backgrounds/character/geo.png')">
+
+<div id="Attributes" class="sidebar">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav('Attributes')">x</a>
+	<h1>BASE ITTO STATS</h1>
+	<table>
+		<tr>
+			<th>LEVEL</th>
+			<th>HP</th>
+			<th>ATK</th>
+			<th>DEF</th>
+			<th>CRIT RATE</th>
+		</tr>
+		<tr>
+			<td>20</td>
+			<td>3455</td>
+			<td>61</td>
+			<td>258</td>
+			<td>5%</td>
+		</tr>
+		<tr>
+			<td>40</td>
+			<td>5779</td>
+			<td>102</td>
+			<td>431</td>
+			<td>9.8%</td>
+		</tr>
+		<tr>
+			<td>50</td>
+			<td>7462</td>
+			<td>132</td>
+			<td>557</td>
+			<td>14.6%</td>
+		</tr>
+		<tr>
+			<td>60</td>
+			<td>8951</td>
+			<td>158</td>
+			<td>668</td>
+			<td>14.6%</td>
+		</tr>
+		<tr>
+			<td>70</td>
+			<td>10448</td>
+			<td>185</td>
+			<td>779</td>
+			<td>19.4%</td>
+		</tr>
+		<tr>
+			<td>80</td>
+			<td>11954</td>
+			<td>211</td>
+			<td>892</td>
+			<td>24.2%</td>
+		</tr>
+		<tr>
+			<td>90</td>
+			<td>12858</td>
+			<td>227</td>
+			<td>959</td>
+			<td>24.2%</td>
+		</tr>
+	</table>
+</div>
+
+<div id="Constellation" class="sidebar">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav('Constellation')">x</a>
+	<h1>ITTO CONSTELLATIONS</h1>
+	<h2>Stay a While and Listen Up</h2>
+	<p>Using Royal Descent: Behold, Itto the Evil! provides Arataki Itto with further buffs to Superlative Superstrength.</p>
+	<ul>
+		<li>Using it will grant Arataki Itto 2 stacks instead.</li>
+		<li> From the first second of the skill’s use, 1 stack will be added on until a total of 3 have been added.</li>
+	</ul>
+	
+	<h2>Gather ‘Round, It’s a Brawl!</h2>
+	<p>After using Royal Descent: Behold, Itto the Evil!, each party member whose Element is Geo will decrease that skill’s CD by 1.5s and restore 6 Energy to Arataki Itto. A maximum of 6s CD can be decreased and 24 Energy restored in this manner.</p><br><br>
+
+	<h2>Horns Lowered, Coming Through</h2>
+	<p>Increases the Level of Masatsu Zetsugi: Akaushi Burst! by 3. Maximum upgrade level is 15.</p><br><br>
+	
+	<h2>Jailhouse Bread and Butter</h2>
+	<p>While in the Raging Oni King state caused by Royal Descent: Behold, Itto the Evil!, Itto has 25% higher CRIT Rate against opponents with equal or lower HP percentage remaining than him.</p><br><br>
+	
+	<h2>10 Years of Hanamizaka Fame</h2>
+	<p>Increases the Level of Royal Descent: Behold, Itto the Evil! by 3. Maximum upgrade level is 15.</p><br><br>
+	
+	<h2>Arataki Itto, Present!</h2>
+	<p>Arataki Itto’s Charged Attacks deal 70% increased Crit DMG. Additionally, when he uses Arataki Kesagiri, he has a 50% chance to not consume stacks of Superlative Superstrength.</p>
+</div>
+
+<div id="Talents" class="sidebar">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav('Talents')">x</a>
+	<h1>ITTO TALENT LEVELS</h1><br><br>
+	
+	<h2>Fight Club Legend</h2>
+	
+	<p><b>Normal Attack:</b> Perform up to 4 consecutive strikes. When the 2nd and 4th strikes hit opponents, Itto will gain 1 and 2 stacks of Superlative Superstrength, respectively up to a max of 5 stacks. Triggering this effect will refresh the current duration of any existing stacks.</p><br>
+	<p>Additionally, Itto’s Normal Attack combo does not immediately reset after sprinting or using his Elemental Skill, “Masatsu Zetsugi: Akaushi Burst!”</p>
+
+	<table>
+	</table>
+</div>
+
+<div id="Profile" class="sidebar">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav('Profile')">x</a>
+	<p>Profile text</p>
+</div>
+
+<div id="Weapon" class="sidebar">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav('Weapon')">x</a>
+	<p>Weapon text</p>
+</div>
+
+<div id="Artifacts" class="sidebar">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav('Artifacts')">x</a>
+	<p>Artifacts text</p>
+</div>
+
+<nav class="navbar navbar-dark bg-dark" ">
+  <div class="container">
+    <a class="navbar-brand" href="#" style="font-family:Genshin;">
+      <img src="Visions/Inazuma/Vision_Inazuma_Geo.webp" alt="" width="50" height="50"> Arataki Itto
+    </a>
+  </div>
+</nav>
+<div id="main">
+<ul class="characterInfoMenu">
+	<li><a href="javascript:void(0)" onclick="openNav('Attributes')">Attributes</a></li>
+	<li><a href="javascript:void(0)" onclick="openNav('Constellation')">Constellation</a></li>
+	<li><a href="javascript:void(0)" onclick="openNav('Talents')">Talents</a></li>
+	<li><a href="javascript:void(0)" onclick="openNav('Profile')">Profile</a></li>
+	<li><a href="javascript:void(0)" onclick="openNav('Weapon')">Weapon</a></li>
+	<li><a href="javascript:void(0)" onclick="openNav('Artifacts')">Artifacts</a></li>
+</ul>
+
+<div class="artifactButton">
+	<button><img src="equipment/artifact/husk_of_opulent_dreams.webp"></button><p>Husk of Opulent Dreams</p>
+</div>
+
+<div class="weaponButton">
+	<button><img src="equipment/weapon/Weapon_Redhorn_Stonethresher_Wish.webp"></button><p>Redhorn Stonetheresher</p>
+</div>
+
+<div class="position-absolute top-50 start-50 translate-middle">
+	<img class="infoCharacter" src="InazumaTall/Character_Arataki_Itto_Portrait.webp">
+</div>
 
 </div>
 

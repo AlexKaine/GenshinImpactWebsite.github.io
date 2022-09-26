@@ -101,15 +101,18 @@
 }
 
 .inazuma {
-	background-color:#af8ec1;
+	background-image: url('Banners/Banner_Inazuma.png');
+    background-size: contain;
 }
 
 .liyue {
-	background-color:#fab632;
+	background-image: url('Banners/Banner_Liyue.png');
+    background-size: contain;
 }
 
 .monstadt {
-	background-color:#74c2a8;
+	background-image: url('Banners/Banner_Mondstadt.png');
+    background-size: contain;
 }
 
 #mondstadtBody {
@@ -141,7 +144,8 @@
 }
 
 .sumeru {
-	background-color:#a6c938;
+	background-image: url('Banners/Banner_Sumeru.png');
+    background-size: contain;
 }
 
 .brokenTighnari {
@@ -164,6 +168,10 @@
 	visibility:hidden;
 }
 
+.infoCharacter {
+	height:700px;
+}
+
 .buttonLearn {
 	position: relative;
 	left:300px;
@@ -175,6 +183,27 @@
 	left:300px;
 	top:315px;
 }
+
+.navbar {
+	overflow: scroll;
+	background-color: #111;
+	position: fixed; 
+	top: 0; 
+	width: 100%; 
+}
+
+.navbar button {
+	background-color: #04AA6D;
+	border: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 20px;
+	border-radius: 12px;
+	float: right;
 }
 
 .sidebar {
@@ -184,6 +213,26 @@
 	z-index: 1;
 	top: 0;
 	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+	color: white;
+	font-family: Genshin;
+}
+.sidebar p{
+	color: white;
+	font-family:Genshin;
+	
+}
+
+.rightSidebar {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 100;
 	background-color: #111;
 	overflow-x: hidden;
 	transition: 0.5s;
@@ -227,7 +276,76 @@
 	background-color: #444;
 }
 
+.openbtn {
+	font-size: 20px;
+	cursor: pointer;
+	background-color: #111;
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	position: fixed;
+	margin-top:50px;
+}
+
+.openbtn:hover {
+	background-color: #444;
+}
+
 #main {
 	transition: margin-left .5s;
 	padding: 16px;
+}
+
+.characterInfoMenu a{
+	font-family: Genshin;
+	color: #fff;
+	font-size: 30px;
+	text-decoration:none;
+}
+
+
+.characterInfoMenu a:hover {
+	color: lightgray;
+}
+
+.artifactButton {
+	top: 50px;
+	left:1100px;
+	position: relative;
+	max-width: 400px;
+}
+
+.artifactButton img, .weaponButton img{
+	max-height:100px;
+}
+
+
+.artifactButton button, .weaponButton button{
+	border-radius:50%;
+	height:100px;
+	width:100px;
+	
+}
+
+.artifactButton p, .weaponButton p {
+	float: right;
+	font-family: Genshin;
+	font-size:20px;
+}
+
+.weaponButton {
+	top: 100px;
+	left:1000px;
+	position: relative;
+	max-width: 400px;
+}
+
+table {
+	font-family:Genshin;
+	color: #fff;
+	border-color: white;
+}
+
+th, td {
+	padding:15px;
 }
